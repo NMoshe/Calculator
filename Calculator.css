@@ -1,0 +1,53 @@
+html {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    text-align: center;
+    width: 50%;
+    height: 90%;
+    margin:auto;
+}
+
+main {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.Calculator{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    background-color: slategray;
+}
+
+.display {
+    border: 2px solid firebrick;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 500px;
+    background-color: snow;
+}
+
+.mainDisplay {
+    padding: 5px;
+    text-align: right;
+    overflow: auto;
+    max-width: 500px;
+}
+
+.keys {
+    border-top: 3px solid cornflowerblue;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+.format {
+    display: grid;
+    grid: repeat(5, 75px) / repeat(5, 100px);
+}
